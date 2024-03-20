@@ -32,16 +32,20 @@ const Footer = () => {
           <h2 className="text-white text-[15px] xl:text-[69px] font-bold leading-normal ">FOLLOW US</h2>
            <p className="text-white text-[15px] xl:text-[25px]  font-bold leading-normal xl:mb-[15px]">jOIN THE DuDubai<br/> community</p>
         <div className="flex gap-4">
+          <a href="https://twitter.com/DuDubaicoin">
             <img 
              className=" w-[28px] h-[28px] xl:w-[53px] xl:h-[53px]" 
              src={Twt} 
              alt='programs-images'
              />
+          </a>
+          <a href="https://t.me/dudubaicoin">
              <img 
              className="w-[28px] h-[28px] xl:w-[53px] xl:h-[53px]" 
              src={Tlg} 
              alt='programs-images'
              />
+          </a>
         </div>
         </div>
 
